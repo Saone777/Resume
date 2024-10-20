@@ -1,0 +1,131 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f0f2f5;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.sidebar {
+    width: 30%;
+    background: #2d3e50;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.profile-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.profile-header p {
+    font-size: 14px;
+}
+
+.personal-details, .skills, .languages, .hobbies, .qualities {
+    margin-bottom: 20px;
+}
+
+.personal-details ul, .skills ul, .hobbies ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.personal-details ul li, .skills ul li, .hobbies ul li {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.languages p, .qualities p {
+    margin: 5px 0;
+}
+
+.content {
+    width: 70%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.content section {
+    margin-bottom: 20px;
+}
+
+.content h2 {
+    color: #0066cc;
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style for bold (strong) text in blue */
+strong {
+    color: #0066cc;
+    font-weight: bold;
+}
+
+/* Sidebar Header */
+.profile-header {
+    background-color: #0066cc;
+    padding: 10px 0;
+    margin: -20px -20px 20px -20px;
+}
+
+.profile-header h1, .profile-header p {
+    color: #fff;
+}
+
+.profile-header a {
+    color: #fff;
+}
+
+/* Section Items */
+.section-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.item-content {
+    flex: 1;
+}
+
+.item-date {
+    flex-shrink: 0;
+    font-size: 14px;
+    color: #888;
+    margin-left: 10px;
+    text-align: right;
+}
